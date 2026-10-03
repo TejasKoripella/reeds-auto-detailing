@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import path from 'node:path'
 
 export default defineConfig({
+  base: '/reeds-auto-detailing/',
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
